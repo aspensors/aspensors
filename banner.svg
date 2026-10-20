@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">aspensors — Linux, networks, security</title>
+  <desc id="desc">Dark blue banner with a terminal prompt and a network diagram in teal.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101c32"/>
+      <stop offset="1" stop-color="#081019"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#233850" stroke-width="1" opacity="0.35"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="300" rx="20" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="20" fill="url(#grid)"/>
+  <rect x="42" y="44" width="4" height="212" rx="2" fill="#5eead4"/>
+  <text x="72" y="85" font-family="ui-monospace,Consolas,monospace" font-size="17" letter-spacing="3" fill="#5eead4">LEARN / BUILD / UNDERSTAND</text>
+  <text x="68" y="162" font-family="system-ui,Segoe UI,sans-serif" font-size="68" font-weight="700" letter-spacing="-2" fill="#f0f6fc">aspensors</text>
+  <text x="72" y="210" font-family="system-ui,Segoe UI,sans-serif" font-size="23" fill="#b7c8dc">Linux. Networks. Security.</text>
+  <text x="72" y="250" font-family="ui-monospace,Consolas,monospace" font-size="16" fill="#7190ae">$ inspect → explain → improve</text>
+  <g fill="none" stroke="#2e5c71" stroke-width="2">
+    <path d="M850 92L1055 65L1118 196L932 242L850 92L1118 196M850 92L932 242M1055 65L932 242"/>
+    <circle cx="850" cy="92" r="16" fill="#102b39" stroke="#5eead4"/>
+    <circle cx="1055" cy="65" r="10" fill="#102b39" stroke="#76a9f5"/>
+    <circle cx="1118" cy="196" r="16" fill="#102b39" stroke="#5eead4"/>
+    <circle cx="932" cy="242" r="10" fill="#102b39" stroke="#76a9f5"/>
+  </g>
+  <rect x="880" y="122" width="170" height="66" rx="12" fill="#102132" stroke="#345369"/>
+  <text x="900" y="163" font-family="ui-monospace,Consolas,monospace" font-size="27" fill="#5eead4">&gt;_</text>
+  <path d="M962 159h60" stroke="#718fa8" stroke-width="3" stroke-linecap="round"/>
+</svg>
